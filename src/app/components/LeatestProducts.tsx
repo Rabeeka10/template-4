@@ -39,7 +39,7 @@ export default function LeatestProducts() {
   
     return (
       <div className="container mx-auto px-4 py-8" style={{ backgroundColor: "white" }}>
-        <h1 className="text-3xl font-bold text-center mb-8">Latest Products</h1>
+        <h1 className="text-3xl font-bold text-center mb-8">Leatest Products</h1>
         <div className="flex justify-center space-x-8  text-[#151875]">
           <a href="#" className="text-[#FB4997] font-semibold">
             New Arrival

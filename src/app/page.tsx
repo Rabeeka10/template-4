@@ -2,8 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
 import FeaturedProducts from "./components/FeaturedProducts"
-import Latest from "./components/Home/Leatest"
-import LatestProducts from "./components/LeatestProducts"
+import LeatestProducts from "./components/LeatestProducts"
 import Offers from "./components/Offers"
 
 
@@ -13,7 +12,7 @@ function Home() {
       <Navbar/>
       <Hero/>
       <FeaturedProducts/>
-      <LatestProducts/>
+      <LeatestProducts/>
       <Offers/>
       <Footer/>
       
