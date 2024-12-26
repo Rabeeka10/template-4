@@ -3,7 +3,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <div className="bg-slate-100 py-12">
-      <div className="max-w-7xl mx-auto flex flex-col items-center lg:items-start lg:flex-row justify-between px-6 sm:px-10">
+      <div className="max-w-7xl mx-auto flex flex-col items-center lg:justify-start lg:flex-row justify-between px-6 sm:px-10">
         
    
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0 flex justify-center lg:justify-start "> 
@@ -16,7 +16,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="lg:w-2/3 lg:pl-0 mt-6 lg:mt-0 text-left"> 
+        <div className="lg:w-2/3 lg:pl-0 mt-6 lg:mt-0 text-left justify-center"> 
           <p className="text-pink-500 text-sm mt-2"> 
             Best Furniture for Your Castle
           </p>
@@ -28,7 +28,7 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> Sed
             ullamcorper, velit at feugiat ultricies.
           </p>
-          <button className="bg-pink-500 text-white text-sm font-semibold px-6 py-3 rounded-full mt-6 hover:bg-pink-600">
+          <button className="bg-pink-600 text-white text-sm font-semibold px-6 py-3 rounded-full mt-6 hover:bg-pink-500">
             Shop Now
           </button>
         </div>

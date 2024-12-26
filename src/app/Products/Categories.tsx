@@ -57,10 +57,10 @@ const Categories = () => {
 
         <div className="flex justify-center mt-4 gap-2">
  
-  <div className="w-3 h-3 rounded-full bg-[#D5006D]"></div>
-  <div className="w-3 h-3 rounded-full border-2 border-[#D5006D] bg-white"></div>
-  <div className="w-3 h-3 rounded-full border-2 border-[#D5006D] bg-white"></div>
-</div>
+          <div className="w-3 h-3 rounded-full bg-[#D5006D]"></div>
+          <div className="w-3 h-3 rounded-full border-2 border-[#D5006D] bg-white"></div>
+          <div className="w-3 h-3 rounded-full border-2 border-[#D5006D] bg-white"></div>
+        </div>
 
       </div>
     </div>

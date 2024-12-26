@@ -1,33 +1,35 @@
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FeaturedProducts from "./Products/FeaturedProducts";
-import LatestProducts from "./Products/LatestProducts";
-import OfferProducts from "./Products/Offer";
-import { BannerPage } from "./Products/BannerPage";
-import TrendingProducts from "./Products/TrendingProducs";
-import DiscountItems from "./Products/DiscountItems";
-import Categories from "./Products/Categories";
-import Banner from "./Products/Banner2";
-import Blogs from "./Products/LatestBlog";
-import Footer from "./components/Footer";
+'use lient'
 
-export default function Home() {
-  return (
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import TopCategories from "./components/TopCategories";
+import LatestProducts from "./components/LatestProducts";
+import FeaturedProducts from './components/FeaturedProducts';
+import Offers from "./components/Offers";
+import Unique from "./components/Unique";
+import TrendingProducts from "./components/TrendingProducts";
+import Discount from "./components/Discount";
+import BlogSection from "./components/BlogSection";
+import Newslater from "./components/Newslater";
+
+function Homepage(){
+  return(
     <div>
-      <Header/>
-      <Navbar/>
-      <HeroSection/>
-      <FeaturedProducts/>
-      <LatestProducts/>
-      <OfferProducts/>
-      <BannerPage/>
-      <TrendingProducts/>
-      <DiscountItems/>
-      <Categories/>
-      <Banner/>
-      <Blogs/>
-      <Footer/>
+      <Header />
+      <Hero />
+      <FeaturedProducts />
+      <LatestProducts />
+      <Offers />
+      <Unique />
+      <TrendingProducts />
+      <Discount />
+      <TopCategories />
+      <Newslater />
+      <BlogSection />
+      <Footer />
     </div>
-  );
+  )
 }
+
+export default Homepage;
