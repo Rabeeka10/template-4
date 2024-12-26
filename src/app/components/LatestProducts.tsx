@@ -62,7 +62,7 @@ function LatestProducts() {
                
 
 
- <BeakerIcon className="h-6 w-6 text-blue-500" />;
+ <BeakerIcon className="h-6 w-6 text-blue-500" />
 
                 </button>
               </div>

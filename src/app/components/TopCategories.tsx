@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 function TopCategories() {
   const categories = [
@@ -34,7 +35,7 @@ function TopCategories() {
 
               {/* Hover View Shop Button */}
               <button className="absolute bottom-2 bg-[#08D15F] text-white px-3 py-1 text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                View Shop
+                <Link href="/shoplist">View Shop</Link>
               </button>
             </div>
 

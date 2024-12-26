@@ -11,16 +11,16 @@ const LatestProducts = () => {
         <nav>
           <ul className="flex justify-center space-x-8">
             <li>
-              <a href="#" className="text-pink-500 border-b-2 border-pink-500">New Arrival</a>
+              <a href="/products" className="text-pink-500 border-b-2 border-pink-500">New Arrival</a>
             </li>
             <li>
-              <a href="#" className="text-blue-500">Best Seller</a>
+              <a href="/shoplist" className="text-blue-500">Best Seller</a>
             </li>
             <li>
-              <a href="#" className="text-blue-500">Featured</a>
+              <a href="/products" className="text-blue-500">Featured</a>
             </li>
             <li>
-              <a href="#" className="text-blue-500">Special Offer</a>
+              <a href="/shoplist" className="text-blue-500">Special Offer</a>
             </li>
           </ul>
         </nav>
