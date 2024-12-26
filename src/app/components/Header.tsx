@@ -49,6 +49,13 @@ function Header() {
                   Home
                 </Link>
               </li>
+              
+              <li>
+                <Link className="hover:text-[#FB2E86] transition-colors" href="/products">
+                  Products
+                </Link>
+              </li>
+
               <li className="relative">
                 <button
                   className="hover:text-[#FB2E86] transition-colors"
@@ -85,11 +92,9 @@ function Header() {
                   </ul>
                 )}
               </li>
-              <li>
-                <Link className="hover:text-[#FB2E86] transition-colors" href="/products">
-                  Products
-                </Link>
-              </li>
+
+
+
               <li>
                 <Link className="hover:text-[#FB2E86] transition-colors" href="/blog">
                   Blog
