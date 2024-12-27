@@ -155,11 +155,11 @@ function Header() {
                 <Link href="/cart">Cart</Link>
               </li>
               <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link href="/checkout">Billing Details</Link>
-                    </li>
-                    <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link href="/ordercompleted">Order Completed</Link>
-                    </li>
+               <Link href="/checkout">Billing Details</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-gray-100">
+               <Link href="/ordercompleted">Order Completed</Link>
+              </li>
               <li className="px-4 py-2 hover:bg-gray-100">
                 <Link href="/about">About Us</Link>
               </li>
@@ -167,14 +167,11 @@ function Header() {
                 <Link href="/contact-us">Contact Us</Link>
               </li>
               <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link href="/account">My Account</Link>
-                    </li>
-                    <li className="px-4 py-2 hover:bg-gray-100">
+                <Link href="/account">My Account</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-gray-100">
                       <Link href="/forgetpassword">Forget Password</Link>
-                    </li>
-                    <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link href="/creatorpage">About Creator</Link>
-                    </li>
+              </li>    
               <li className="px-4 py-2 hover:bg-gray-100">
                 <Link href="/faq">FAQ</Link>
                 </li>

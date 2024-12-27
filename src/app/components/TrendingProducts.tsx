@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 function TrendingProducts() {
   const products = [
@@ -66,7 +67,7 @@ function TrendingProducts() {
           <h3 className="text-[#3F509E] text-2xl font-bold mb-4">23% Off in all products</h3>
    {/* Button */}
    <button className="text-pink-600 underline text-lg font-medium mt-4">
-    View Collection
+    <Link href="/products">View Collection</Link>
   </button>
           <Image
             src="/images/voucher2.png"
