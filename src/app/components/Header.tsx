@@ -26,7 +26,8 @@ function Header() {
           {/* Left Section: Logo and Search Bar */}
           <div className="flex items-center gap-8">
             {/* Logo */}
-            <h1 className="text-3xl font-bold">Hekto</h1>
+            <h1 className="text-3xl font-bold">
+              <Link href="/">Hekto</Link></h1>
 
             {/* Search Bar */}
             <div className="hidden sm:flex items-center border rounded-md overflow-hidden bg-gray-100">
@@ -83,9 +84,7 @@ function Header() {
                     <li className="px-4 py-2 hover:bg-gray-100">
                       <Link href="/account">My Account</Link>
                     </li>
-                    <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link href="/creatorpage">About Creator</Link>
-                    </li>
+                   
                     <li className="px-4 py-2 hover:bg-gray-100">
                       <Link href="/faq">FAQ</Link>
                     </li>
@@ -226,7 +225,7 @@ function Header() {
               <ShoppingCartIcon className="w-5 h-5" />
               <span>Cart</span>
             </Link>
-            <Link href="#" className="flex items-center gap-1 text-sm hover:text-[#FB2E86]">
+            <Link href="/cart" className="flex items-center gap-1 text-sm hover:text-[#FB2E86]">
               <HeartIcon className="w-5 h-5" />
               <span>Wishlist</span>
             </Link>
